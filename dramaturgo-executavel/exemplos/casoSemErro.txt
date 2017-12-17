@@ -1,0 +1,74 @@
+TITULO: "Pedindo informacoes"
+
+PERSONAGENS: Julio, Senhor.
+
+CENARIOS: praca, escola.
+
+RECURSOS: praca = "recursos/praca.jpg",
+          Julio[normal] = "recursos/julio_normal.png",
+          Senhor[normal] = "recursos/gandalf.png",
+          minha_musica(musica) = "recursos/emotional.mp3",
+          meu_som(som) = "recursos/animals002.mp3".
+
+
+- CENA 1 -
+
+(cenario praca)
+
+(entra Julio[normal])
+
+Julio - "Acho que estou perdido...Aquele senhor deve saber onde fica o ponto de onibus. Vou perguntar!"
+
+
+- CENA 2 -
+
+(entra Senhor[normal])
+
+Julio - "Boa tarde senhor! Poderia me dizer onde fica o ponto de onibus mais proximo?"
+Senhor - "Boa tarde. Depende, pra que lugar voce vai?"
+
+ESCOLHA: "Irei para Mordor." - va para CENA 3, "Irei a casa da minha tia Aninha." - va para CENA 4, "Oh, meu deus! Gandalf!" - va para CENA 5.
+
+
+- CENA 3 -
+
+Senhor - "Pois bem. O onibus para Mordor passara em uma hora no ponto ao sul daqui."
+Julio - "Muito obrigado! Tenha um bom dia."
+Senhor - "Por nada."
+
+(som meu_som)
+
+"Julio entao se dirige ao ponto."
+
+PULO FIM
+
+
+- CENA 4 -
+
+Senhor - "Ora, ora..."
+Senhor - "E a sua tia Aninha por acaso cozinha maravilhosos doces?"
+Julio - "Sim, ela cozinha! Por um acaso, voce conhece ela?"
+Senhor - "Nao! Mas adoraria conhecer."
+
+
+(musica minha_musica)
+
+"Julio nunca mais foi o mesmo.."
+"Depois daquilo tudo mudou.."
+"E eles foram felizes para sempre.."
+
+PULO FIM
+
+- CENA 5 - 
+
+Senhor - "Haha! Sim, sou eu!"
+Julio - "Oh! Gandalf! Me leve em uma aventura."
+Senhor - "Nao diga mais nada."
+Senhor - "Suba em minhas costas!"
+
+(sai Julio)
+(sai Senhor)
+
+
+
+FIM.

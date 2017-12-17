@@ -1,0 +1,13 @@
+TITULO: "Erro semantico"
+
+PERSONAGENS: Personagem.
+
+CENARIOS: ambiente.
+
+RECURSOS: ambiente = "cenario.jpg",
+          Personagem[normal] = "personagem_normal.png".
+
+- CENA 1 -
+(entra Personagem[feliz] e Personagem2[normal])
+
+FIM

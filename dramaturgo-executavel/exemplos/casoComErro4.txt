@@ -1,0 +1,13 @@
+TITULO: "Erro sintatico"
+
+PERSONAGENS: Personagem.
+
+CENARIOS: ambiente.
+
+RECURSOS: ambiente = "cenario.jpg",
+          Personagem[normal] = "personagem_normal.png".
+
+- CENA A -
+(entra Personagem[normal])
+
+FIM

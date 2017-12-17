@@ -1,0 +1,18 @@
+TITULO: "Erro semantico"
+
+PERSONAGENS: Personagem.
+
+CENARIOS: ambiente.
+
+RECURSOS: ambiente = "cenario.jpg",
+          Personagem[normal] = "personagem_normal.png".
+
+- CENA 1 -
+(cenario ambiente)
+(entra Personagem[triste])
+ESCOLHA: "Caso 1" - va para CENA 2, "Caso 2" - va para CENA 4.
+
+- CENA 2 -
+"Teste de erros semanticos"
+Personagem2 - "Acho q nao existo..."
+FIM

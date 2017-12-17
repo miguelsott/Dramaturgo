@@ -1,0 +1,19 @@
+
+botao.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+botao.down
+  rotate: false
+  xy: 0, 73
+  size: 681, 73
+  orig: 681, 73
+  offset: 0, 0
+  index: -1
+botao.up
+  rotate: false
+  xy: 0, 0
+  size: 681, 73
+  orig: 681, 73
+  offset: 0, 0
+  index: -1
